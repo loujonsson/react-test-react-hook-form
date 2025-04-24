@@ -1,10 +1,8 @@
-import React from "react";
-import logo from "./logo.svg";
-import "./App.css";
-import MyButton from "./components/MyButton";
+import React from 'react';
+import logo from './logo.svg';
+import './App.css';
 
 function App() {
-  console.log("HEJ")
   return (
     <div className="App">
       <header className="App-header">
@@ -18,12 +16,9 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React!!
+          Learn React
         </a>
       </header>
-      <div>
-        <MyButton />
-      </div>
     </div>
   );
 }
